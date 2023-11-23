@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet"> 
+
+  
+
+
+ <style>
+ 
+ 
+body {
+
+
+background-color: black;
+      background-image: url("https://i.ibb.co/grfx9Mx/office.png");
+     background-attachment: fixed;
+  background-position: 100% 100%;
+  background-repeat: repeat;
+
+  
+  color: #fff;
+
+    font-family: 'Fira Sans', sans-serif;
+font-size: 12px;
+    line-height: 2;
+    padding: 0 10px;
+}
+
+
+
+ div.scroll {
+        background-color: black;
+        width: 660px;
+        height: 600px;
+        overflow: auto;
+        overflow-x: hidden;
+        scrollbar-width: thin;
+        scrollbar-color: #4b3c6b #111113;
+        padding: 20px;
+        margin: 40px;
+        border: 1px solid;
+          border-color: black;
+          background-image: url("https://i.ibb.co/yX5mTWf/hexabump.png")
+
+      }
+
+#example2 {
+  border: 1px solid;
+  padding: 10px;
+  margin: 200px;
+}
+
+
+.glow {
+  margin: 0px;
+  font-size: 18px;
+  color: #B49562;
+  text-align: center;
+  text-shadow: 0 0 10px #EFAD42;
+}
+  
+#example1 {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px;
+  width: 50%;
+  height: 50%;
+  padding: 30px;  
+}
+
+#info {
+  top: 60;
+   color: #000;
+  border: 1px solid;
+  box-shadow: 5px 10px;
+  width: 155px;
+  height: 10px;
+  padding: 25px;  
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -250px;
+  margin-left: -700px;
+
+}
+
+ .fixed-header, .fixed-footer{
+        width: 100%;
+        height: 45px;
+        position: fixed;        
+        background: #333;
+        padding: 10px 0;
+        color: #fff;
+        background-image: url("https://i.ibb.co/3pKN9qK/real-cf.png")
+    
+ }
+    .fixed-header{
+        top: 0;
+        left: -0;
+            font-family: 'Fira Sans', sans-serif;
+    }
+    .fixed-footer{
+        bottom: 0;
+        left: -0;
+            font-family: 'Fira Sans', sans-serif;
+            font-size: 18px;
+            
+    }
+    .container{
+        width: 80%;
+        margin: 0 auto; /* Center the DIV horizontally */
+    }
+    nav a{
+        color: #fff;
+        text-decoration: none;
+        padding: 7px 25px;
+        display: inline-block;
+ 
+    } 
+ 
+
+    img {
+    transition:transform 0.25s ease;
+}
+
+img:hover {
+    -webkit-transform:scale(1.5); /* or some other value */
+    transform:scale(1.5);
+}
+
+
+/* Style the tab */
+.tab {
+    word-spacing: 30px;
+  overflow: auto;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+    width: 100%;
+    
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  
+  font-family: 'Fira Sans', sans-serif;
+  text-indent: 0px;
+    letter-spacing: 3px;
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 5px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+   width: 465px;
+  display: none;
+        overflow: auto;
+        scrollbar-width: thin;
+        scrollbar-color: #4b3c6b #111113;
+        padding: 1px;
+        margin: 0px;
+border: 1px solid transparent;
+
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+          
+
+}
+
+
+
+
+</style>
+
+<center>
+
+  
+     <!-- HEADER SECTION -->
+    
+  <div class="fixed-header">
+        <div class="container">
+            <nav>
+              
+              <a href="/index.html"  style="text-decoration: none;">  
+<img src="https://i.ibb.co/k8PWStf/new6w.png" ></a> 
+              
+              
+              <a href="/writing.html"  style="text-decoration: none;"> 
+<img src="https://i.ibb.co/4MgP6Vc/new5.png" ></a> 
+
+<a href="/log.html"  style="text-decoration: none;">  
+<img src="https://i.ibb.co/rMrCPBQ/LOG.png" ></a> 
+
+
+               <a href="/post.html" style="text-decoration: none;">  
+<img src="https://i.ibb.co/S3zH54v/new2.png" ></a> 
+
+
+              
+            </nav>
+        </div>
+    </div>
+    
+    
+
+<!-- Separate -->
+
+
+<center>
+
+
+<br>
+
+ <button class="tablinks" onclick="openCity(event, 'empty')" id="defaultOpen"></button>
+
+<div class="scroll">
+
+
+
+<!-- Tab links -->
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, '2023')">2023</button>
+  <button class="tablinks" onclick="openCity(event, '2022')">2022</button>
+  <button class="tablinks" onclick="openCity(event, '2021')">2021</button>
+  <button class="tablinks" onclick="openCity(event, '2020')">2020</button>
+</div>
+<br>
+
+<div id="empty" class="tabcontent">
+
+ <img src="https://i.imgur.com/3IcH663.png">
+
+<p>This is the DEFAULT PAGE. I have no current plans to make it detailed, so in order to prevent it from feeling too empty, I put Teto here.</p>
+
+</div>
+
+
+
+<!-- Tab content: 2021 -->
+
+
+
+
+<div id="2021" class="tabcontent">
+
+  <h2>2021</h2>
+        
+  <img src="https://i.ibb.co/H4rpKWc/11.png" width=60%>
+  
+   <img src="https://i.ibb.co/w7LmJSM/20211115-123613.jpg"  width=60%> 
+     
+  <img src="https://i.ibb.co/h8VpyfW/20211024-013809-HQ.jpg"  width=60%> 
+ 
+ <img src="https://i.ibb.co/jZGb5FQ/20210911-124318.jpg"  width=60%> 
+ 
+ <img src="https://i.ibb.co/zZbHgcN/30.png" title="RPG MAKER 2003 Sprites" width=50%>  
+ <img src="https://i.ibb.co/mXWf3Dw/SPRITE.gif" title="RPG MAKER 2003 Sprites" width=10%>
+ 
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<!-- Tab content: 2022  -->
+
+
+
+
+<div id="2022" class="tabcontent">
+  <h2>2022</h2>
+  
+ <img src="https://i.ibb.co/C9tBcX5/2smaller.png" title="I made geometric shaped friends. I consider it a fine accomplishment."  width=280px> 
+  
+ <img src="https://i.ibb.co/XChhy9L/7.jpg"  width=60%> 
+  
+ <img src="https://i.ibb.co/tq9vYnP/10s.png" title="Made a discovery that you can use coal to shade."  width=60%> 
+  
+ <img src="https://i.ibb.co/bWC3bsW/9.jpg" title="One more time..." width=60%> 
+  
+ <img src="https://i.ibb.co/hgWPfbr/6.jpg"  width=60%> 
+
+ <img src="https://i.ibb.co/GWZzPJR/2a.png"  width=60%> 
+
+ <img src="https://i.ibb.co/mqbk4ng/21.jpg"  width=60%> 
+
+ <img src="https://i.ibb.co/VHSz2HN/11m.png"  width=60%> 
+  
+</div>
+
+  
+
+
+<!-- Tab content: 2022  -->
+
+
+
+
+<div id="2023" class="tabcontent">
+  <h2>2023</h2>
+  <h4>They're not as good as last year's illustrations... no inspirations.</h4>
+  
+   <img src="https://i.imgur.com/ysTeKli.png"  width=60%> 
+
+ <img src="https://i.imgur.com/qjDtugZ.png"  width=60%> 
+
+ <img src="https://i.imgur.com/b3UKjlg.png"  width=60%> 
+ 
+  
+ <img src="https://i.imgur.com/Zt1LeaF.png"  width=60%> 
+
+ <img src="https://i.imgur.com/JWOgXjm.png"  width=60%> 
+
+ <img src="https://i.imgur.com/c3kPxIU.png"  width=60%> 
+  
+</div>
+
+  
+  
+  
+    
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+<script>
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+<!-- Separate -->
+
+     
+</body>
+</html> 

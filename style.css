@@ -1,0 +1,74 @@
+body {
+          padding-top: 30px;
+        padding-bottom: 40px;
+
+  background-color: black;
+      background-image: url("https://i.ibb.co/grfx9Mx/office.png");
+  background-repeat: repeat;
+    line-height: 2;
+  
+  
+  color: #fff;
+
+
+
+}
+
+
+ .fixed-header, .fixed-footer{
+        width: 100%;
+        height: 65px;
+        position: fixed;        
+        background: #333;
+        padding: 10px 0;
+        color: #fff;
+        background-image: url("https://i.ibb.co/3pKN9qK/real-cf.png")
+    
+ }
+    .fixed-header{
+        top: 0;
+        left: -0;
+            font-family: 'Fira Sans', sans-serif;
+    }
+    .fixed-footer{
+        bottom: 0;
+        left: -0;
+            font-family: 'Fira Sans', sans-serif;
+            font-size: 18px;
+            
+    }
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 7px 25px;
+        display: inline-block;
+ 
+    }
+
+
+    img {
+    transition:transform 0.25s ease;
+}
+
+img:hover {
+    -webkit-transform:scale(1.5); /* or some other value */
+    transform:scale(1.5);
+}
+
+imgmain {
+  float: left;
+  clear: right;
+}
+
+.left {
+ text-align: right;
+ clear: right;
+  
+}
+
+h2 {
+
+font-size: 18px;
+  
+}
